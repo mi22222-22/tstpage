@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: white;
+}
+
+/* ヘッダー */
+.header {
+  background: #0b0f3b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 30px;
+
+
+}
+
+nav {
+  margin-top: 30px;
+}
+
+.header a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* メイン画像 */
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+/* 説明 */
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+.intro p {
+  margin: 1px 0;
+}
+
+.intro h2 {
+  font-size: 40px;
+  margin-top: -30px;
+}
+
+/* .intro button {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  background: #0b113b;
+  color: rgb(255, 255, 255);
+}*/
+
+/* ギャラリー */
+.gallery {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.main-img {
+  width: 60%;
+}
+
+.logo {
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.logo .sub {
+  display: block;      /* 下に落とす */
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  opacity: 0.7;
+}
+
+
+.intro .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+
+  background: #0b113b;
+  color: #fff;
+
+  text-decoration: none;
+}
+
+
+.hero {
+  display: flex;
+  gap: 10px;          /* 画像同士の間隔 */
+  justify-content: center; /* 中央揃え（不要なら消してOK） */
+}
+
+.hero img {
+  width: 150px;       /* 画像サイズ調整 */
+  height: auto;
+  object-fit: contain;
+}
